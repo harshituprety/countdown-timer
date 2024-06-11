@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: linear-gradient(to right top, #97BAFF 10%, #00d2ff, #9FBFFE 70%);
+    overflow-y: hidden;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0px 4px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.navbar h1 {
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.navbar button {
+    background-color: #1B374D;
+    padding: 10px;
+    color: #ffff;
+    width: 120px;
+    border-radius: 20px;
+    font-family: Roboto;
+    height: 40px;
+    border: 1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section p {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 300;
+    color: #1B374D;
+}
+
+.section h1 {
+    font-size: 100px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-spacing: 10px;
+    color: #1B374D;
+    line-height: 80px;
+}
+
+.section h2 {
+    text-align: center;
+    word-spacing: 130px;
+    padding-bottom: 10px;
+    font-family: Roboto;
+    font-weight: 300;
+}
+
+.section button {
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-family: Roboto;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    cursor: pointer;
+}
+
+.headline {
+    overflow-y: hidden;
+}
+
+.headline h1 {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 530px;
+    font-weight: 900;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 25px;
+}
